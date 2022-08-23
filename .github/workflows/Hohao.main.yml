@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+,# set the project.name .hohao
+name: Hohao.Tutoria config.h.in
+
+# Controls when the workflow will run.[ control ]
+on:define tutorial _version_MAJOR @tutoria_version_MARJOR @
+  #  the configured options and settings for tutorial"version"
+    branches: [ "main" ].. tutorial " version "
+  pull_request:{ version }
+    branches: [ "main" ] //report " version "
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:{ project}
+# defig tutorial _version_minor @ tutorial_version_minor@
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+# add the executive 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+Tutorial.cxx
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+if ( argc > 2 ){
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: | project ( tutorial)
+          echo Add other actions to build,
+          echo test, and deploy your project.
+Std:: cout << argv [0] >>" version"
